@@ -37,5 +37,66 @@
 *.out
 *.app
 
+# CMake Build Directory and Artifacts
+build/
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Visual Studio Project Files
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+
+# JetBrains / VSCode / Clangd Defaults
+.vscode/
+.idea/
+.clangd/
+*.swp
+
+# Executables & Binaries
+*.exe
+*.dll
+*.lib
+*.so
+*.dylib
+*.a
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+
+# User Logs & Workspaces
+*.log
+build_log.txt
+build_log_utf8.txt
+build_output.txt
+
+# Datasets and Temp Directories
+datasets/
+temp/
+workspace/
+
+# Environment and Assistant Specific
+.venv/
+env/
+ENV/
+.env
+antigravity/
+ANTIGRAVITY/
+.gemini/
+
+
 # debug information files
 *.dwo
